@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles.css/style.css">
 </head>
 
 <body>
 
-    <header></header>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mi</a>
+        </nav>
+    </header>
     <main class="presentacion">
 
+        <!-- Esto es un comentario y será ignorado  -->
         <section class="presentacion_contenido">
             <h1 class="presentacion_contenido_titulo">
                 Eleve tu negocio digital a otro nivel
@@ -26,21 +32,26 @@
             </p>
 
             <div class="presentacion__enlaces">
-                <a class="presentacion__enlaces__link" href="https://www.instagram.com/">Instagram</a>
-                <a class="presentacion__enlaces__link" href="https://github.com/">Github</a>
+                <h2 class="presentacion__enlaces_subtitulo">Accede a mis redes:</h2>
+                <a class="presentacion__enlaces__link" href="https://www.instagram.com/">
+                    <img src="./assets/instagram.png">
+                    Instagram</a>
+                <a class="presentacion__enlaces__link" href="https://github.com/">
+                    <img src="./assets/github.png" alt="">
+                    Github</a>
             </div>
         </section>
 
 
-        <img src="Imagem.png" alt="Imagen de Ana García trabajando">
-
-
-
-
+        <img class="presentacion__imagen" src="./assets/Imagem.png" alt="Imagen de Ana García trabajando">
 
 
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <p>
+            Desarrollado por Verónica Acuña
+        </p>
+    </footer>
 </body>
 
 </html>
